@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqykavi51apew"]
+
+[ext_resource type="Script" path="res://test_node.gd" id="1_emdio"]
+
+[node name="Test" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="." groups=["savable_nodes"]]
+script = ExtResource("1_emdio")
